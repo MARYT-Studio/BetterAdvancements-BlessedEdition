@@ -87,31 +87,9 @@ public class CriterionGrid {
         if (criteria.size() <= 1) {
             return CriterionGrid.empty;
         }
-        int numUnobtained = 0;
-        List<String> cellContents = new ArrayList<>();
-        for (String criterion : criteria.keySet()) {
-            if (progress.getCriterionProgress(criterion).isObtained()) {
-                if (detailLevel.showObtained()) {
-                    TextComponentString text = new TextComponentString(" + ");
-                    text.getStyle().setColor(TextFormatting.GREEN);
-                    TextComponentString text2 = new TextComponentString(criterion);
-                    text2.getStyle().setColor(TextFormatting.WHITE);
-                    text.appendSibling(text2);
-                    cellContents.add(text.getFormattedText());
-                }
-            }
-            else {
-                if (detailLevel.showUnobtained()) {
-                	TextComponentString text = new TextComponentString(" x ");
-                	text.getStyle().setColor(TextFormatting.DARK_RED);
-                	TextComponentString text2 = new TextComponentString(criterion);
-                	text2.getStyle().setColor(TextFormatting.WHITE);
-                	text.appendSibling(text2);
-                    cellContents.add(text.getFormattedText());
-                }
-                numUnobtained++;
-            }
-        }
+
+        List<String> cellContents = CriterionElement.getCriterionElements(progress, criteria, detailLevel);
+        int numUnobtained = CriterionElement.numUnobtained;
 
         if (!detailLevel.showUnobtained()) {
         	TextComponentString text = new TextComponentString(" x ");
