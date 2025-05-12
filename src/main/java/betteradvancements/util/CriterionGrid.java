@@ -10,7 +10,10 @@ import net.minecraft.advancements.AdvancementProgress;
 import net.minecraft.advancements.Criterion;
 import net.minecraft.client.gui.FontRenderer;
 import net.minecraft.util.text.TextComponentString;
+import net.minecraft.util.text.TextComponentTranslation;
 import net.minecraft.util.text.TextFormatting;
+
+import static betteradvancements.reference.Reference.ID;
 
 // An arrangement of criteria into rows and columns
 public class CriterionGrid {
@@ -88,15 +91,14 @@ public class CriterionGrid {
             return CriterionGrid.empty;
         }
 
-        List<String> cellContents = CriterionElement.getCriterionElements(progress, criteria, detailLevel);
+        List<String> cellContents = CriterionElement.getCriterionElements(advancement, progress, criteria, detailLevel);
         int numUnobtained = CriterionElement.numUnobtained;
 
         if (!detailLevel.showUnobtained()) {
         	TextComponentString text = new TextComponentString(" x ");
         	text.getStyle().setColor(TextFormatting.DARK_RED);
-        	TextComponentString text2 = new TextComponentString(numUnobtained + " remaining");
+        	TextComponentTranslation text2 = new TextComponentTranslation(ID + ".remaining.text", numUnobtained);
         	text2.getStyle().setColor(TextFormatting.WHITE);
-        	text2.getStyle().setItalic(true);
         	text.appendSibling(text2);
             cellContents.add(text.getFormattedText());
         }

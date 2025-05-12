@@ -36,7 +36,7 @@ public class GuiScreenBetterAdvancements extends GuiScreen implements ClientAdva
     private boolean isScrolling;
     protected int internalWidth, internalHeight;
     public static int uiScaling;
-    public static boolean showDebugCoordinates = false;
+    public static boolean DEBUG = false;
     public static boolean orderTabsAlphabetically = false;
     private GuiBetterAdvancement advConnectedToMouse = null;
 
@@ -305,7 +305,7 @@ public class GuiScreenBetterAdvancements extends GuiScreen implements ClientAdva
             }
         }
 
-        if (GuiScreenBetterAdvancements.showDebugCoordinates && this.selectedTab != null && mouseX < internalWidth - SIDE - PADDING && mouseX > SIDE + PADDING && mouseY < internalHeight - top + 1 && mouseY > top + PADDING * 2) {
+        if (GuiScreenBetterAdvancements.DEBUG && this.selectedTab != null && mouseX < internalWidth - SIDE - PADDING && mouseX > SIDE + PADDING && mouseY < internalHeight - top + 1 && mouseY > top + PADDING * 2) {
             //If dragging an advancement, draw coordinates of advancement being moved instead of mouse coordinates
             if (this.advConnectedToMouse != null) {
                 //-3 and -1 are needed to have the coordinates be rendered where the advancement starts being rendered, rather than its real position.
