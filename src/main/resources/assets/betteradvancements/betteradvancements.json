@@ -114,7 +114,7 @@
   },
   "lastsmith:silverbamboo_blood" : {
     "crafting" : "betteradvancements.template.inv_change.text;item.flammpfeil.slashblade.named.silverbamboolight_blood.name",
-    "blade" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.slashblade_sliverbamboolight.title",
+    "blade" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.sliverbamboolight.title",
     "blade2" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.bewitched.title"
   },
   "lastsmith:slashblade_bamboolight" : {
