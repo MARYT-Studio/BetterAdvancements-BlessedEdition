@@ -1,9 +1,20 @@
-# Better Advancements
-  
-Successor to [BetterAchievements](https://github.com/way2muchnoise/BetterAchievements) for the new advancements system in minecraft 1.12+  
-Texture/resource pack makers please take look at the [wiki page](https://github.com/way2muchnoise/BetterAdvancements/wiki/Creating-texture-sheets-for-Better-Advancements) for info on how to make textures for Better Advancements compared to vanilla.
+# Better Advancements - Blessed Edition
 
-While this fork mainly for Fork of Better Advancements, displaying all subitems of advancement in a more player- and packdev- friendly way.
+![](title.png)
+
+----
+
+Fork of [BetterAdvancements](https://github.com/way2muchnoise/BetterAdvancements) mainly for Fork of Better Advancements, displaying all subitems of advancement in a more player- and packdev- friendly way.
+
+Texture/resource pack makers may still refer to the [original wiki page](https://github.com/way2muchnoise/BetterAdvancements/wiki/Creating-texture-sheets-for-Better-Advancements) for info on how to make textures for Better Advancements compared to vanilla.
+
+## Credits
+
+**Highly appreciation to the original mod author [way2muchnoise](https://github.com/way2muchnoise/)**.
+
+This fork's license will be keep the same as its original repo.
+
+The new kitty logo above is a creation of ChatGPT.
 
 ## How to contribute
 
