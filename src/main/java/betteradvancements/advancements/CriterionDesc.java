@@ -7,6 +7,7 @@ import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import net.minecraft.advancements.Advancement;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.resources.I18n;
 import net.minecraft.client.resources.IResource;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.text.TextComponentTranslation;
@@ -43,8 +44,17 @@ public class CriterionDesc {
     public static TextComponentTranslation criterion2Desc(Advancement advancement, String criterion) {
         if (dictionary.has(advancement.getId().toString())) {
             JsonObject criteria = dictionary.get(advancement.getId().toString()).getAsJsonObject();
-            if (criteria.has(criterion)) return new TextComponentTranslation(criteria.get(criterion).getAsString());
+            if (criteria.has(criterion)) {
+                String descValue = criteria.get(criterion).getAsString();
+                String[] desc = descValue.split(";");
+                return desc.length == 2 ? criterion2Desc(desc[0], desc[1]) :  new TextComponentTranslation(criteria.get(criterion).getAsString());
+
+            }
         }
         return null;
+    }
+
+    public static TextComponentTranslation criterion2Desc(String template, String desc) {
+        return new TextComponentTranslation(template, I18n.format(desc));
     }
 }
