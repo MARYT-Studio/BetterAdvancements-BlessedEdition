@@ -3,7 +3,7 @@
 Successor to [BetterAchievements](https://github.com/way2muchnoise/BetterAchievements) for the new advancements system in minecraft 1.12+  
 Texture/resource pack makers please take look at the [wiki page](https://github.com/way2muchnoise/BetterAdvancements/wiki/Creating-texture-sheets-for-Better-Advancements) for info on how to make textures for Better Advancements compared to vanilla.
 
-While this fork mainly for displaying all sub- items of advancement in a more detailed and automatic way.
+While this fork mainly for Fork of Better Advancements, displaying all subitems of advancement in a more player- and packdev- friendly way.
 
 ## How to contribute
 
