@@ -1,2 +1,7 @@
 betteradvancements.remaining.text=还差%s项
 betteradvancements.template.inv_change.text=将%s放入背包
+betteradvancements.template.has_advancement.text=完成进度：%s
+
+# Advancements need 2 items
+lastsmith.betteradvancements.roukan_hakurou.desc=将「楼观剑」和「白楼剑」同时放入背包
+lastsmith.betteradvancements.amagumo.desc=将天云「速风」和天云「残云」同时放入背包

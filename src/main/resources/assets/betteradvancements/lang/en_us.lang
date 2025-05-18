@@ -1,2 +1,7 @@
 betteradvancements.remaining.text=§o%s§o remaining§r
 betteradvancements.template.inv_change.text=Have %s in your inventory
+betteradvancements.template.has_advancement.text=Complete advancement: %s
+
+# Advancements need 2 items
+lastsmith.betteradvancements.roukan_hakurou.desc=Have -Roukanken-, -Hakurouken- both in your inventory
+lastsmith.betteradvancements.amagumo.desc=Have Amagumo-Kaze- Amagumo-Kumo- both in your inventory
