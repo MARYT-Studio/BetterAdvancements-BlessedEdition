@@ -29,5 +29,7 @@ dependencies {
     runtimeOnly rfg.deobf('curse.maven:slashblade-241596:3039993')
     runtimeOnly rfg.deobf('curse.maven:mysterious-mountain-lib-368098:3254750')
     runtimeOnly rfg.deobf("curse.maven:sjap-310187:6461671")
-    runtimeOnly rfg.deobf("curse.maven:the-last-smith-306385:6512847")
+
+    runtimeOnly rfg.deobf(files("E:\\JavaProject\\TheBlessedSmith\\build\\libs\\TLS-2.3.0-1.12.2.jar"))
+    // runtimeOnly rfg.deobf("curse.maven:the-last-smith-306385:6512847")
 }

@@ -5,8 +5,8 @@
   },
   "lastsmith:bamboolight_recluse" : {
     "crafting" : "betteradvancements.template.inv_change.text;item.flammpfeil.slashblade.named.bamboolight_recluse.name",
-    "blade" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.bamboolight.title",
-    "blade2" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.bewitched.title"
+    "blade" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.slashblade_bamboolight.title",
+    "blade2" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.bewitched_blade.title"
   },
   "lastsmith:bewitched_blade" : {
     "named_1" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.namedblade_1.title",
@@ -19,7 +19,7 @@
   },
   "lastsmith:crimson_katana" : {
     "crafting" : "betteradvancements.template.inv_change.text;item.flammpfeil.slashblade.named.fortress.crimson.update.name",
-    "blade" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.bewitched.title"
+    "blade" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.bewitched_blade.title"
   },
   "lastsmith:final_blade" : {
     "crafting" : "betteradvancements.template.inv_change.text;item.flammpfeil.slashblade.named.smith.final.name",
@@ -39,7 +39,7 @@
     "blade4" : "betteradvancements.template.inv_change.text;item.flammpfeil.slashblade.named.fox.white.name",
     "blade5" : "betteradvancements.template.inv_change.text;item.flammpfeil.slashblade.named.fox.black.name",
     "blade10" : "betteradvancements.template.inv_change.text;item.flammpfeil.slashblade.named.muramasa.name",
-    "white" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.white.title"
+    "white" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.slashblade_white.title"
   },
   "lastsmith:namedblade_2" : {
     "blade" : "betteradvancements.template.inv_change.text;item.flammpfeil.slashblade.named.kogawa_super.name",
@@ -48,7 +48,7 @@
     "blade3" : "betteradvancements.template.inv_change.text;item.flammpfeil.slashblade.named.yamazakura.kadomatsu.name",
     "blade4" : "betteradvancements.template.inv_change.text;item.flammpfeil.slashblade.named.yamazakura.ume.name",
     "blade5" : "betteradvancements.template.inv_change.text;item.flammpfeil.slashblade.named.yamazakura.sakura.name",
-    "white" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.white.title"
+    "white" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.slashblade_white.title"
   },
   "lastsmith:namedblade_3" : {
     "blade" : "betteradvancements.template.inv_change.text;item.SlashBladeTemplate.blue.name",
@@ -63,7 +63,7 @@
     "blade9" : "betteradvancements.template.inv_change.text;item.flammpfeil.slashblade.named.toyako.name",
     "blade10" : "betteradvancements.template.inv_change.text;item.flammpfeil.slashblade.named.yukari.name",
     "blade11" : "betteradvancements.template.inv_change.text;item.flammpfeil.slashblade.named.tboen.name",
-    "white" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.white.title"
+    "white" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.slashblade_white.title"
   },
   "lastsmith:nihil" : {
     "crafting" : "betteradvancements.template.inv_change.text;item.flammpfeil.slashblade.named.nihilbx.name",
@@ -82,10 +82,10 @@
   },
   "lastsmith:sagequoia" : {
     "crafting" : "betteradvancements.template.inv_change.text;item.flammpfeil.slashblade.named.sagequoia.name",
-    "blade" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.bewitched.title"
+    "blade" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.bewitched_blade.title"
   },
   "lastsmith:sakura_blade" : {
-    "blade" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.bewitched.title",
+    "blade" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.bewitched_blade.title",
     "crafting" : "betteradvancements.template.inv_change.text;item.flammpfeil.slashblade.named.sakura.name",
     "crafting2" : "betteradvancements.template.inv_change.text;item.flammpfeil.slashblade.named.ginkgo.name",
     "crafting3" : "betteradvancements.template.inv_change.text;item.flammpfeil.slashblade.named.yukikage.name",
@@ -93,7 +93,7 @@
   },
   "lastsmith:scorn" : {
     "crafting" : "betteradvancements.template.inv_change.text;item.flammpfeil.slashblade.named.scorn.name",
-    "blade" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.bewitched.title"
+    "blade" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.bewitched_blade.title"
   },
   "lastsmith:sharpness" : {
     "blade" : "betteradvancements.template.inv_change.text;item.flammpfeil.slashblade.named.agito.name",
@@ -108,33 +108,33 @@
     "named_2" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.yamazakura.aoi.title",
     "named_3" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.yamazakura.kamuy.title",
     "named_4" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.bamboolight_recluse.title",
-    "named_5" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.silverbamboolight_blood.title",
+    "named_5" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.silverbamboo_blood.title",
     "named_6" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.sagequoia.title",
     "bewitched_scroll" : "betteradvancements.template.inv_change.text;item.lastsmith.scroll_bewitched.name"
   },
   "lastsmith:silverbamboo_blood" : {
     "crafting" : "betteradvancements.template.inv_change.text;item.flammpfeil.slashblade.named.silverbamboolight_blood.name",
-    "blade" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.sliverbamboolight.title",
-    "blade2" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.bewitched.title"
+    "blade" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.sliverslashblade_bamboolight.title",
+    "blade2" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.bewitched_blade.title"
   },
   "lastsmith:slashblade_bamboolight" : {
     "crafting" : "betteradvancements.template.inv_change.text;item.flammpfeil.slashblade.silverbamboo.name",
-    "blade" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.first.title"
+    "blade" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.root.title"
   },
   "lastsmith:slashblade_sliverbamboolight" : {
     "crafting" : "betteradvancements.template.inv_change.text;item.flammpfeil.slashblade.silverbamboo.name",
-    "blade" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.bamboolight.title"
+    "blade" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.slashblade_bamboolight.title"
   },
   "lastsmith:slashblade_white" : {
     "blade_1" : "betteradvancements.template.has_advancement.text;achievement.flammpfeil.slashblade.buildWhiteSheath",
     "blade_2" : "betteradvancements.template.has_advancement.text;achievement.flammpfeil.slashblade.brokenWhiteSheath",
-    "blade" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.first.title"
+    "blade" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.root.title"
   },
   "lastsmith:thaumic_katana" : {
     "crafting" : "betteradvancements.template.inv_change.text;item.flammpfeil.slashblade.named.fortress.thaumium.name",
     "crafting2" : "betteradvancements.template.inv_change.text;item.flammpfeil.slashblade.named.fortress.elemental.name",
     "crafting3" : "betteradvancements.template.inv_change.text;item.flammpfeil.slashblade.named.fortress.void.name",
-    "blade" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.white.title"
+    "blade" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.slashblade_white.title"
   },
   "lastsmith:thousand" : {
     "crafting" : "betteradvancements.template.inv_change.text;item.flammpfeil.slashblade.named.thousand.name",
@@ -142,10 +142,10 @@
   },
   "lastsmith:yamazakura_aoi" : {
     "crafting" : "betteradvancements.template.inv_change.text;item.flammpfeil.slashblade.named.yamazakura.aoi.name",
-    "blade" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.bewitched.title"
+    "blade" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.bewitched_blade.title"
   },
   "lastsmith:yamazakura_kamuy" : {
     "crafting" : "betteradvancements.template.inv_change.text;item.flammpfeil.slashblade.named.yamazakura.kamuy.name",
-    "blade" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.bewitched.title"
+    "blade" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.bewitched_blade.title"
   }
 }
