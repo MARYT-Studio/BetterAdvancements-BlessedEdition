@@ -4,4 +4,5 @@ betteradvancements.template.has_advancement.text=Complete advancement: %s
 
 # Advancements need 2 items
 lastsmith.betteradvancements.roukan_hakurou.desc=Have -Roukanken-, -Hakurouken- both in your inventory
+lastsmith.betteradvancements.roukan_hakurou_nether.desc=Have Gokukaiken-Roukanken-, Gokukaiken-Hakurouken- both in your inventory
 lastsmith.betteradvancements.amagumo.desc=Have Amagumo-Kaze- Amagumo-Kumo- both in your inventory

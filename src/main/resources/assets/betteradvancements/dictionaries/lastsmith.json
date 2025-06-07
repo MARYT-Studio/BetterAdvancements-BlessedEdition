@@ -77,7 +77,7 @@
     "blade" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.sakura_blade.title"
   },
   "lastsmith:roukan_hakurou_nether" : {
-    "crafting" : "betteradvancements.template.inv_change.text;item.flammpfeil.slashblade.named.hakurou_nether.name",
+    "crafting" : "lastsmith.betteradvancements.roukan_hakurou_nether.desc",
     "blade" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.fushikiri.title"
   },
   "lastsmith:sagequoia" : {
