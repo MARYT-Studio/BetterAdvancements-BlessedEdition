@@ -110,11 +110,11 @@
     "named_4" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.bamboolight_recluse.title",
     "named_5" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.silverbamboo_blood.title",
     "named_6" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.sagequoia.title",
-    "bewitched_scroll" : "betteradvancements.template.inv_change.text;item.lastsmith.scroll_bewitched.name"
+    "bewitched_scroll" : "betteradvancements.template.inv_change.text;item.lastsmith.scroll_shapeness.name"
   },
   "lastsmith:silverbamboo_blood" : {
     "crafting" : "betteradvancements.template.inv_change.text;item.flammpfeil.slashblade.named.silverbamboolight_blood.name",
-    "blade" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.sliverslashblade_bamboolight.title",
+    "blade" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.slashblade_sliverbamboolight.title",
     "blade2" : "betteradvancements.template.has_advancement.text;achievement.lastsmith.bewitched_blade.title"
   },
   "lastsmith:slashblade_bamboolight" : {
